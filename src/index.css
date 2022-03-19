@@ -1,15 +1,16 @@
 :root {
-    --azul: #3b82f6;
-    --blanco: #ffffff;
+    --azul: #005F73;
+    --blanco: #fff;
     --gris-claro: #f5f5f5;
     --gris: #94a3b8;
     --gris-oscuro: #64748b;
-    --negro: #000;
+    --negro: #000001219;
+    --rojo:  #BB3E03;
 }
 
 body {
     font-size: 1.6rem;
-    font-family: "Lato", sans-serif;
+    font-family: "Raleway", sans-serif;
     background-color: var(--gris-claro);
 }
 html {
@@ -395,6 +396,7 @@ body .modal {
     background-color: #db2777;
     margin-bottom: 2rem;
     color: var(--blanco);
+
 }
 
 .swipeable-list .swipe-action {

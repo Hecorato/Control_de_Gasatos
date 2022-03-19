@@ -1,15 +1,19 @@
-import { useState } from 'react'
-
-import './App.css'
+import { useState, useEffect } from 'react'
+import Header from './components/Header'
 
 function App() {
- 
 
-  return (
-    <div >
-      <h1>Control de Gastos</h1>
-   
-    </div>
+  const[presupuesto,setPresupuesto]=useState(0);
+
+return(
+    <div>
+        <Header
+        presupuesto={presupuesto}
+        setPresupuesto={setPresupuesto}
+        onChange={e => setPresupuesto(e.target.value)}
+        
+        />
+      </div>
   )
 }
 
